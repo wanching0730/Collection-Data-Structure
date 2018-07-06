@@ -5,6 +5,8 @@ public class TestGeometricComparator {
         GeometricObject g1 = new Rectangle(5, 5);
         GeometricObject g2 = new Circle(5);
 
+        // Comparator<GeometricObject> c = new GeometricObjectComparator();
+
         GeometricObject g =
                 max(g1, g2, new GeometricObjectComparator());
 
