@@ -1,3 +1,10 @@
+package Geometric;
+
+import Geometric.Circle;
+import Geometric.GeometricObject;
+import Geometric.GeometricObjectComparator;
+import Geometric.Rectangle;
+
 import java.util.Comparator;
 
 public class TestGeometricComparator {
@@ -5,7 +12,7 @@ public class TestGeometricComparator {
         GeometricObject g1 = new Rectangle(5, 5);
         GeometricObject g2 = new Circle(5);
 
-        // Comparator<GeometricObject> c = new GeometricObjectComparator();
+        // Comparator<Geometric.GeometricObject> c = new Geometric.GeometricObjectComparator();
 
         GeometricObject g =
                 max(g1, g2, new GeometricObjectComparator());

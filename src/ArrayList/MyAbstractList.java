@@ -1,4 +1,4 @@
-import java.util.Iterator;
+package ArrayList;
 
 public abstract class MyAbstractList<E> implements MyList<E> {
     protected int size = 0;
