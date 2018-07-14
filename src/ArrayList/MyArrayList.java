@@ -15,6 +15,7 @@ public class MyArrayList<E> extends MyAbstractList<E> {
         }
     }
 
+    @Override
     public void add(int index, E e) {
         this.ensureCapacity();
 
@@ -61,6 +62,7 @@ public class MyArrayList<E> extends MyAbstractList<E> {
         }
     }
 
+    @Override
     public int indexOf(E e) {
         for(int i = 0; i < this.size; ++i) {
             if (e.equals(this.data[i])) {

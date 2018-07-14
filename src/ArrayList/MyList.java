@@ -22,6 +22,6 @@ public interface MyList<E> extends Iterable<E> {
 
     public E get(int index);
 
-
+    // method
     Iterator<E> iterator();
 }
