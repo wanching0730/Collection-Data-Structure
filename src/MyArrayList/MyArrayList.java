@@ -1,4 +1,4 @@
-package ArrayList;
+package MyArrayList;
 
 import java.util.Iterator;
 

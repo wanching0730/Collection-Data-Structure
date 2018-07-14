@@ -1,6 +1,4 @@
-package ArrayList;
-
-import java.util.Collections;
+package MyArrayList;
 
 public abstract class MyAbstractList<E> implements MyList<E> {
     protected int size = 0;
