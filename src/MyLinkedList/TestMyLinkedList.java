@@ -16,5 +16,10 @@ public class TestMyLinkedList {
         System.out.println(list.get(0));
         System.out.println(list.get(2));
 
+        System.out.println("Test indexOf()");
+        System.out.println(list.indexOf("jean"));
+        System.out.println(list.indexOf("tom"));
+        System.out.println(list.indexOf("Peter"));
+
     }
 }

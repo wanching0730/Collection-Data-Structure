@@ -199,8 +199,14 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
     @Override /** Return the index of the head matching element in
      *  this list. Return -1 if no match. */
     public int indexOf(E e) {
-        System.out.println("Implementation left as an exercise");
-        return 0;
+        int index = -1;
+        Node<E> current = head;
+        for(int i = 0; i < size; i++) {
+            if(current.element == e)
+                index = i;
+            current = current.next;
+        }
+        return index;
     }
 
     @Override /** Return the index of the last matching element in
