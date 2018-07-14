@@ -41,6 +41,7 @@ public class MyArrayList<E> extends MyAbstractList<E> {
         this.size = 0;
     }
 
+    @Override
     public boolean contains(E e) {
         for(int i = 0; i < this.size; ++i) {
             if (e.equals(this.data[i])) {

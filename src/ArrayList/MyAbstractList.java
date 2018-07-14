@@ -1,5 +1,7 @@
 package ArrayList;
 
+import java.util.Collections;
+
 public abstract class MyAbstractList<E> implements MyList<E> {
     protected int size = 0;
 
@@ -23,14 +25,37 @@ public abstract class MyAbstractList<E> implements MyList<E> {
         return flag;
     }
 
+    /**
+     * Removes all the elements in otherList from this list.
+     * Returns true if this list changed as a result of the call
+     */
     @Override
     public boolean removeAll(MyList<E> otherList) {
-        return false;
+        boolean flag = false;
+        for(int i = 0; i < otherList.size(); i++) {
+            remove(otherList.get(i));
+            flag = true;
+        }
+
+        return flag;
     }
 
+    /**
+     * Retains the elements in this list that are also in otherList.
+     * Returns true if this list changed as a result of the call
+     */
     @Override
     public boolean retainAll(MyList<E> otherList) {
-        return false;
+        boolean flag = false;
+        for(int i = 0; i < otherList.size(); i++) {
+            E element = otherList.get(i);
+            if(!contains(element))
+                add(element);
+
+            flag = true;
+        }
+
+        return flag;
     }
 
     public boolean isEmpty() {
@@ -42,12 +67,14 @@ public abstract class MyAbstractList<E> implements MyList<E> {
         return this.size;
     }
 
+    @Override
     public boolean remove(E e) {
         if (indexOf(e) >= 0) {
-            this.remove(indexOf(e));
+            remove(indexOf(e));
             return true;
         } else {
             return false;
         }
     }
+
 }

@@ -18,9 +18,13 @@ public interface MyList<E> extends Iterable<E> {
 
     public E remove(int index);
 
+    public boolean remove(E e);
+
     public int size();
 
     public E get(int index);
+
+    public boolean contains(E e);
 
     // method
     Iterator<E> iterator();
