@@ -179,7 +179,7 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
     public boolean contains(E e) {
         boolean flag = false;
         Node<E> current = head;
-        for (int i = 0; i < size; i++) {
+        for (int i = 1; i < size; i++) {
             if(current.element == e)
                 return true;
             current = current.next;
@@ -189,8 +189,11 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
 
     @Override /** Return the element at the specified index */
     public E get(int index) {
-        System.out.println("Implementation left as an exercise");
-        return null;
+        Node<E> current = head;
+        for(int i = 0; i < index; i++) {
+            current = current.next;
+        }
+        return current.element;
     }
 
     @Override /** Return the index of the head matching element in

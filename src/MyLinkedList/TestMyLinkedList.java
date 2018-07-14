@@ -9,8 +9,12 @@ public class TestMyLinkedList {
         MyLinkedList<String> list = new MyLinkedList<String>(name);
 
         System.out.println("Test contains()");
-        System.out.println(list.contains("george"));
+        System.out.println(list.contains("tom"));
         System.out.println(list.contains("michelle"));
+
+        System.out.println("Test get()");
+        System.out.println(list.get(0));
+        System.out.println(list.get(2));
 
     }
 }
