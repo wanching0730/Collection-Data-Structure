@@ -1,3 +1,5 @@
+package Stacks;
+
 import java.util.Stack;
 
 public class EvaluateExpression {
@@ -5,7 +7,7 @@ public class EvaluateExpression {
         // Check number of arguments passed
         if (args.length != 1) {
             System.out.println(
-                    "Usage: java EvaluateExpression \"expression\"");
+                    "Usage: java Stacks.EvaluateExpression \"expression\"");
             System.exit(1);
         }
 
