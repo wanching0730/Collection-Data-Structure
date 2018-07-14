@@ -59,7 +59,7 @@ public class SortedPoints {
             points[i] = new Point(Math.random() * 100, Math.random() * 100);
 
         System.out.println("sort on x coordinate");
-        // sort the specified list
+        // sort the specified list with default Comparable
         Arrays.sort(points);
         for(Point e: points)
             System.out.println(e);
