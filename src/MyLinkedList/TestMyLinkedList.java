@@ -1,11 +1,12 @@
 package MyLinkedList;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class TestMyLinkedList {
 
     public static void main (String[] args) {
-        String[] name = {"tom", "george", "peter", "jean", "jane"};
+        String[] name = {"tom", "george", "peter", "jean", "jane", "george"};
         MyLinkedList<String> list = new MyLinkedList<String>(name);
 
         System.out.println("Test contains()");
@@ -17,9 +18,12 @@ public class TestMyLinkedList {
         System.out.println(list.get(2));
 
         System.out.println("Test indexOf()");
-        System.out.println(list.indexOf("jean"));
+        System.out.println(list.indexOf("jane"));
         System.out.println(list.indexOf("tom"));
         System.out.println(list.indexOf("Peter"));
 
+        System.out.println("Test lastIndexOf()");
+        System.out.println(list.lastIndexOf("jane"));
+        System.out.println(list.lastIndexOf("george"));
     }
 }
