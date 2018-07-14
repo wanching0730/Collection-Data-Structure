@@ -18,12 +18,18 @@ public class TestMyLinkedList {
         System.out.println(list.get(2));
 
         System.out.println("Test indexOf()");
-        System.out.println(list.indexOf("jane"));
+        System.out.println(list.indexOf("george"));
         System.out.println(list.indexOf("tom"));
+        System.out.println(list.indexOf("jane"));
         System.out.println(list.indexOf("Peter"));
 
         System.out.println("Test lastIndexOf()");
         System.out.println(list.lastIndexOf("jane"));
         System.out.println(list.lastIndexOf("george"));
+
+        System.out.println("Test set()");
+        System.out.println(list.set(3, "janny"));
+        System.out.println(list.set(0, "tommy"));
+        System.out.println(list);
     }
 }

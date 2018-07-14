@@ -31,32 +31,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
-              <caret line="207" column="18" lean-forward="false" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="227" column="21" lean-forward="false" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
               <folding>
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#6357#6358#0" expanded="true" />
-                <element signature="e#6404#6405#0" expanded="true" />
-                <element signature="e#6600#6601#0" expanded="true" />
-                <element signature="e#6648#6649#0" expanded="true" />
-                <element signature="e#6846#6847#0" expanded="true" />
-                <element signature="e#6926#6927#0" expanded="true" />
-                <element signature="e#7043#7044#0" expanded="true" />
-                <element signature="e#7089#7090#0" expanded="true" />
+                <element signature="e#6449#6450#0" expanded="true" />
+                <element signature="e#6496#6497#0" expanded="true" />
+                <element signature="e#6692#6693#0" expanded="true" />
+                <element signature="e#6740#6741#0" expanded="true" />
+                <element signature="e#6938#6939#0" expanded="true" />
+                <element signature="e#7018#7019#0" expanded="true" />
+                <element signature="e#7135#7136#0" expanded="true" />
+                <element signature="e#7181#7182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMyLinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestMyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList/TestMyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="148">
+              <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#285#293#0" expanded="true" />
@@ -151,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/MyArrayList/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/MyLinkedList/MyAbstractList.java" />
         <option value="$PROJECT_DIR$/src/MyLinkedList/MyList.java" />
-        <option value="$PROJECT_DIR$/src/MyLinkedList/TestMyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/MyLinkedList/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/MyLinkedList/TestMyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -461,12 +461,12 @@
       <workItem from="1531210125438" duration="95000" />
       <workItem from="1531445040074" duration="1254000" />
       <workItem from="1531471474150" duration="1115000" />
-      <workItem from="1531533822562" duration="22263000" />
+      <workItem from="1531533822562" duration="22872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29506000" />
+    <option name="totallyTimeSpent" value="30115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="742" extended-state="0" />
@@ -954,6 +954,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyAbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -967,40 +975,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyLinkedList/MyList.java">
+    <entry file="file://$PROJECT_DIR$/src/MyLinkedList/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="227" column="21" lean-forward="false" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#6449#6450#0" expanded="true" />
+            <element signature="e#6496#6497#0" expanded="true" />
+            <element signature="e#6692#6693#0" expanded="true" />
+            <element signature="e#6740#6741#0" expanded="true" />
+            <element signature="e#6938#6939#0" expanded="true" />
+            <element signature="e#7018#7019#0" expanded="true" />
+            <element signature="e#7135#7136#0" expanded="true" />
+            <element signature="e#7181#7182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList/TestMyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="148">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#285#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyLinkedList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="207" column="18" lean-forward="false" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#6357#6358#0" expanded="true" />
-            <element signature="e#6404#6405#0" expanded="true" />
-            <element signature="e#6600#6601#0" expanded="true" />
-            <element signature="e#6648#6649#0" expanded="true" />
-            <element signature="e#6846#6847#0" expanded="true" />
-            <element signature="e#6926#6927#0" expanded="true" />
-            <element signature="e#7043#7044#0" expanded="true" />
-            <element signature="e#7089#7090#0" expanded="true" />
           </folding>
         </state>
       </provider>
