@@ -16,14 +16,14 @@ public class TestTree {
 
         System.out.println("Total leaves: " + bst.getNumberOfLeaves());
 
-        // find sum
+        // find sum using for loop
         int sum = 0;
         for(int e: bst) {
             sum += e;
         }
-
         System.out.println("The sum using for loop is: " + sum);
 
+        // find sum using recursive method
         System.out.println("The sum using recursive method is: " + findSum(bst));
     }
 
