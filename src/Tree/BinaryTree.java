@@ -65,6 +65,19 @@ public class BinaryTree<E extends Comparable<E>>
         return true; // Element inserted
     }
 
+    public int getNumberOfLeaves() {
+        return getNumberOfLeaves(root);
+    }
+
+    public int getNumberOfLeaves(TreeNode<E> root) {
+        if(root == null)
+            return 0;
+        else if(root.left == null && root.right == null)
+            return 1;
+        else
+            return getNumberOfLeaves(root.left) + getNumberOfLeaves(root.right);
+    }
+
     protected TreeNode<E> createNewNode(E e) {
         return new TreeNode<E>(e);
     }
