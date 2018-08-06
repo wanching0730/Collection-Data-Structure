@@ -28,6 +28,7 @@ public class TestTree {
     }
 
     public static int findSum(BinaryTree bst) {
+
         return findSum(bst.root);
     }
 
