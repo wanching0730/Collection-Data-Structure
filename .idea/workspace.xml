@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23de8c8-aa61-4768-8c0d-2d11a1bf9430" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Graph/Graph.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Stacks/Practical6/Q1/GenericQueue.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Stacks/Practical6/Q1/GenericStack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Stacks/Practical6/Q1/TestReverse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Graph/UnweightedGraph.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Collection/Tree/TestTree.class" afterPath="$PROJECT_DIR$/out/production/Collection/Tree/TestTree.class" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TestTree.java" afterPath="$PROJECT_DIR$/src/Tree/TestTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/AbstractGraph.java" afterPath="$PROJECT_DIR$/src/Graph/AbstractGraph.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +36,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graph/AbstractGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-173">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#240#255#0" expanded="true" />
+                <element signature="e#2564#2565#0" expanded="true" />
+                <element signature="e#2602#2603#0" expanded="true" />
+                <element signature="e#2692#2693#0" expanded="true" />
+                <element signature="e#2723#2724#0" expanded="true" />
+                <element signature="e#2824#2825#0" expanded="true" />
+                <element signature="e#2866#2867#0" expanded="true" />
+                <element signature="e#2968#2969#0" expanded="true" />
+                <element signature="e#3010#3011#0" expanded="true" />
+                <element signature="e#3128#3129#0" expanded="true" />
+                <element signature="e#3171#3172#0" expanded="true" />
+                <element signature="e#3268#3269#0" expanded="true" />
+                <element signature="e#3314#3315#0" expanded="true" />
+                <element signature="e#4709#4718#0" expanded="true" />
+                <element signature="e#5828#5837#0" expanded="true" />
+                <element signature="e#6083#6092#0" expanded="true" />
+                <element signature="e#7388#7389#0" expanded="true" />
+                <element signature="e#7423#7424#0" expanded="true" />
+                <element signature="e#7507#7508#0" expanded="true" />
+                <element signature="e#7547#7548#0" expanded="true" />
+                <element signature="e#7653#7654#0" expanded="true" />
+                <element signature="e#7695#7696#0" expanded="true" />
+                <element signature="e#7791#7792#0" expanded="true" />
+                <element signature="e#7840#7841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnweightedGraph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graph/UnweightedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +106,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Circle.java" />
-        <option value="$PROJECT_DIR$/src/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/TestGeometricComparator.java" />
         <option value="$PROJECT_DIR$/src/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/Geometric/Circle.java" />
@@ -137,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/Tree/TestTree.java" />
         <option value="$PROJECT_DIR$/src/Stacks/Practical6/Q1/TestReverse.java" />
         <option value="$PROJECT_DIR$/src/Graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Graph/AbstractGraph.java" />
+        <option value="$PROJECT_DIR$/src/Graph/UnweightedGraph.java" />
       </list>
     </option>
   </component>
@@ -179,6 +229,12 @@
               <item name="Collection-Data-Structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="Collection-Data-Structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Collection-Data-Structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Collection-Data-Structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,12 +510,12 @@
       <workItem from="1533366962046" duration="118000" />
       <workItem from="1533457352713" duration="1535000" />
       <workItem from="1533472144804" duration="2352000" />
-      <workItem from="1533577242428" duration="503000" />
+      <workItem from="1533577242428" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48912000" />
+    <option name="totallyTimeSpent" value="49045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="742" extended-state="0" />
@@ -536,8 +592,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Circle.class" />
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.class" />
     <entry file="file://$PROJECT_DIR$/src/Geometric/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -865,6 +919,56 @@
         <state relative-caret-position="115">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/AbstractGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#240#255#0" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2602#2603#0" expanded="true" />
+            <element signature="e#2692#2693#0" expanded="true" />
+            <element signature="e#2723#2724#0" expanded="true" />
+            <element signature="e#2824#2825#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2968#2969#0" expanded="true" />
+            <element signature="e#3010#3011#0" expanded="true" />
+            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="e#3171#3172#0" expanded="true" />
+            <element signature="e#3268#3269#0" expanded="true" />
+            <element signature="e#3314#3315#0" expanded="true" />
+            <element signature="e#4709#4718#0" expanded="true" />
+            <element signature="e#5828#5837#0" expanded="true" />
+            <element signature="e#6083#6092#0" expanded="true" />
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7423#7424#0" expanded="true" />
+            <element signature="e#7507#7508#0" expanded="true" />
+            <element signature="e#7547#7548#0" expanded="true" />
+            <element signature="e#7653#7654#0" expanded="true" />
+            <element signature="e#7695#7696#0" expanded="true" />
+            <element signature="e#7791#7792#0" expanded="true" />
+            <element signature="e#7840#7841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/UnweightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
